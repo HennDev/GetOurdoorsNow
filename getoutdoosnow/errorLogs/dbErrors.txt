@@ -1,0 +1,1 @@
+2016-08-01 17:03:16   Sql: INSERT INTO Outfitters (name,email,state_ID,city,address,type,phone,lodging,region_id,description,zip,descrShort,createdDate) values(:name,:email,:state_ID,:city,:address,:type,:phone,:lodging,:region,:description,:zip, :descrShort,:createdDate) Error: Unknown column 'createdDate' in 'field list'

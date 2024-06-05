@@ -1,0 +1,765 @@
+/*@media only screen 
+and (min-width : 1224px)
+,only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape){*/
+  
+.divWrapper
+{
+    border: #5cb85c ;
+    border-style: solid;
+    border-width: thick;
+}
+
+  #map
+    {
+	    width: 50%;
+	  margin: 0 auto;
+    background-color: white;
+	}
+
+
+
+#accordionFish, #accordionHunt, #accordionHuntFish, #accordionActivity{
+	width:	500px;
+	clear: both;
+}
+
+criteria .ms-parent{
+	-webkit-appearance: textfield;
+	padding: 1px;
+	background-color: white;
+	border: 2px inset;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	-webkit-rtl-ordering: logical;
+	-webkit-user-select: text;
+	cursor: auto;
+}
+
+#criteria .ms-parent 
+{
+	
+}
+
+.datesLocation
+{
+	//margin: 20px auto;
+	//width: 70%;
+	float: left;
+	clear: both;
+}
+
+.bodyclass .ui-dialog , .ui-draggable , .ui-resizable
+{
+	width: 700px !important;
+}
+
+figure 
+{
+    display:table;
+    margin: auto;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+ #FigHunt
+ {
+	 float: left;
+ }
+ 
+ #FigFish
+ {
+	 float: right;
+ }
+
+
+.datesLocation select
+{
+	width: 175px;
+	margin-right: 40px;
+}
+
+.locations
+{
+	//padding: 0 50px 0 0;
+	float: left;
+	color: black !important;
+	text-decoration: none;
+}
+
+.dates
+{
+	float: left;
+	
+}
+
+.dates input
+{
+	float:none;	
+	margin-right: 45px !important;
+}
+
+.ms-parent, #criteria .ms-parent .ms-drop bottom, .ms-drop.bottom, #criteria .ms-parent, .ms-parent .ms-choice, .ms-parent .ms-drop bottom
+{
+	width: 300px !important;
+
+}
+.ui-tabs-anchor, .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	color:black !important;
+}
+
+#tabs .ui-state-active, #tabs .ui-widget-content .ui-state-active, #tabs .ui-widget-header .ui-state-active .ui-tabs-anchor{
+	background: #6ca236 !important;
+}
+
+.ms-parent .ms-choice, .ui-widget-header, .ui-widget-content
+{
+	border: none;
+	background: #ffffff;
+  /*url("images/ui-bg_flat_75_ffffff_40x100.png") 50% 50% repeat-x;*/
+}
+
+
+#tabs .ui-state-default, #tabs .ui-widget-content .ui-state-default, #tabs .ui-widget-header .ui-state-default
+{
+	background: #5cb85c;
+	border: none !important;
+}
+.ui-widget-content .ui-state-hover {
+
+  border-bottom: 0px solid black !important;
+  }
+.ui-datepicker .ui-widget-header,   .ui-datepicker .ui-datepicker-title, .ui-datepicker td .ui-state-hover
+{
+
+			background-color: #24680C;
+			background :#24680C;
+		    color:white !important;
+}
+
+.ui-widget input[type=text]
+    {
+	    margin-right: 15px;
+	    width:100px !important;
+	    height:25px;
+		margin-bottom: 10px;
+	}
+
+
+
+.ms-parent .ms-choice, .ms-drop bottom, .ms-drop bottom ul, .ms-choice
+{
+	//width: 300px !important;
+}
+
+.TokensContainer
+{
+	width: 400px;
+}
+
+#accordionHunt .ui-accordion-content
+{
+	overflow: hidden !important;
+}
+
+
+	#navigation
+    {
+	    height: 25px;
+	    color: black;
+		background-color: white;
+		text-align: center;
+	    
+	}
+	#topHead
+	{
+		background-color: #5cb85c;	
+		line-height: 40px;
+	}
+	
+    fieldset
+	{
+		border: 1px solid #ddd;
+        padding: 0 1.4em 1.4em 1.4em;
+        margin: 0 0 1.5em 0;
+	}
+
+    legend
+	{
+		font-size: 1.2em;
+        font-weight: bold;
+	}
+
+    textarea
+	{
+		min-height: 75px;
+	}
+
+    .editor-label
+	{
+		margin: 1em 0 0 0;
+	}
+
+    .editor-field
+	{
+		margin: 0.5em 0 0 0;
+	}
+
+
+    .field-validation-error
+	{
+		color: #f00;
+	}
+
+    .field-validation-valid
+	{
+		display: none;
+	}
+
+    .input-validation-error
+	{
+		border: 1px solid #f00;
+        background-color: #fee;
+	}
+
+    .validation-summary-errors
+	{
+		font-weight: bold;
+        color: #f00;
+	}
+
+    .validation-summary-valid
+	{
+		display: none;
+	}
+
+    #content
+	{
+		width: 1200px;
+        margin: 0 auto;
+        position: relative;
+	}
+    
+   /*  #criteria input[type=submit], .NewButton, .warningButton
+    {
+	    margin-right: 30px;	
+	    width:200px;
+	    height:50px;
+        font-family: "Montserrat", sans-serif;
+        border:none;
+        font-size: 15px;
+   		border-radius: 10px;
+	}
+	
+	 #criteria input[type=submit], .NewButton
+	 {
+		background-color:#5cb85c;
+		border: 2px solid #5cb85c;
+	 }*/
+	 
+	.warningButton
+	{
+		background-color:#dbdde2;
+		border: 2px solid #dbdde2;
+	}
+	
+	
+
+	
+	 body .ui-widget{
+		 
+    font-family: "Montserrat", sans-serif !important;
+
+	}
+    
+    
+	#tabs
+	{
+		//background: #e6e6e6 url("images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x;
+		width: 600px;
+		float:	left;
+	}
+	
+	#info
+	{
+		float: right;
+		background-color: white;
+		height: 325px;
+		width: 350px;
+		font-family: "Montserrat", sans-serif !important;
+		color: #232323;
+	}
+	
+	.roundDiv
+	{
+		border-radius: 4px;
+	}
+	.divHeader
+	{
+		background-color: #5cb85c;
+		background: #5cb85c;
+		margin: .2em .2em 0;
+		border-radius: 4px;
+		text-align: center;
+		font-size: 20px;
+		padding: 10px;
+		font-family: "Montserrat", sans-serif !important;
+		color: #232323;
+		font-weight: bold;
+	}
+	
+	.infoText
+	{
+		margin:20px;
+		line-height: 175%;
+	}
+
+	#infoSummary{
+		
+		font-size: 18px;
+		margin: 90px 12px 0 12px;
+	}
+	
+	#mapWrapper
+	{
+		float: left;
+		width: 70%;
+		height: 450px;
+		background-color: white;
+		border-radius: 4px;
+		margin: 40px 140px 0 140px;
+	}
+
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+	padding-bottom: 60px;
+    padding-top: 25px;
+
+}
+
+	#loginWrapper
+	{
+//		width: 50%;
+//		margin: 40px 200px 20px 200px;
+	}
+	
+	#loginWrapper #loginContent, #innerPageWrapper  #loginContent
+	{
+		margin: 0 20px 0 20px;	
+		padding: 10px 0 0 0;
+	}
+	
+	.centerDiv {
+		display: table !important;
+		margin: 0 auto !important;
+		margin-bottom: 10px !important;
+	}	
+		
+	#loginWrapper .form-actions
+	{
+//		background-color: inherit !important;
+//		border-top: : inherit !important;
+	}
+	
+	.button
+	{
+		/*width: 200px;
+		height: 50px;
+		*/
+		
+		padding: 4px 12px;
+		background-color: #5cb85c;
+		font-family: "Montserrat", sans-serif;
+		border: none;
+		font-size: 15px;
+		border: 2px solid #5cb85c;
+		border-radius: 10px;
+	}
+	
+	.button:hover
+	{
+		background-color:	#6ca236 !important;
+	}
+
+	
+	#hotWrapper
+	{
+		margin-top: 20px;
+		color: #232323;
+	}
+
+#popularWrapper, #hotWrapper, #loginWrapper, #innerPageWrapper
+{
+    float: left;
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+    margin: 40px 0 20px 0;
+    color: #232323;
+}
+	
+	.popularItem
+	{ 
+		float: left;
+		width: 30%;
+		height: 300px;
+		background-color: #dbdde2;
+		margin: 25px 0 20px 26px;
+	}
+	
+	.popularItem:hover, .popularItem:hover .popularInfo, .popular-wrapper:hover, .popular-wrapper:hover .popularInfo
+	{
+		background-color: #9a9a9a !important;
+		
+	}
+
+    .popular-wrapper img
+    {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-height: 242px;
+    }
+
+    .popular-wrapper
+    {
+        background-color: #dbdde2;
+    }
+	.popularItem:hover
+	{
+		//border: #5cb85c solid;
+	}
+	
+	.popularImg
+	{
+		height:200px;
+		width: 100%;
+		overflow: hidden;
+	}
+	
+	.popularImg img
+	{
+		display: block;
+	    width:100%;
+	    height:auto
+	}
+	
+	.popularInfo
+	{
+		background-color: #dbdde2;
+		width: 100%;
+		clear: both;
+		
+	}
+	
+	.popularName
+	{
+		font-weight: bold;
+		font-size: 15px;
+		padding-bottom: 10px;
+		margin-top: 10px;
+        color: black !important;
+
+    }
+	.popularLocation
+	{
+		font-size: 13px;
+		margin-left: 10px;
+        padding-bottom: 10px;
+
+        color: black !important;
+
+
+    }
+	.popularStats
+	{
+		font-size: 12px;
+		font-style: italic;
+		float:	right;
+		margin-right: 7px;
+        text-align: right;
+        color: black !important;
+        padding-bottom: 5px;
+
+    }
+
+    body
+    {
+		/*background-image:url(1.jpg);
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		*/
+		background-color: #dbdde2 !important;
+		background-size:100%;
+		font-family: "Montserrat", sans-serif !important;
+		color: #232323;
+		font-size: .85em;
+	}
+
+    html {
+	}
+
+    #left-container
+	{
+		margin: 10px;
+		width: 650px;
+		margin: 0 auto;
+	}
+
+    #topMenu
+	{
+		/*margin: 0 auto;
+		padding: 5px 0 5px 0;
+		padding-top: 10px;
+		*/width: 400px;
+	}
+    
+	#topMenu ul
+	{
+		list-style-type: none;
+		margin: 0px;
+    }
+
+	#topMenu ul li
+	{
+		display: inline;
+		font-size: 15px;
+	}
+
+    body, html
+	{
+		display: block;
+        padding: 0;
+        margin: 0;
+	}
+
+    body {
+	}
+
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+#container {
+	min-height:100%;
+	position:relative;
+}
+
+
+    #inner-container
+	{
+		padding-top: 10px;
+	}
+
+    .title, #content h2
+	{
+		color: white;
+        padding: 10px 5px 5px 5px;
+ 	}
+
+    #title, #title a{
+        font-size: 40px;
+//        padding: 0 50px 0 15px;
+        float: left;color: black !important;
+font-family: "Montserrat", sans-serif;
+text-decoration: none;
+	}
+    
+    #topMenu {
+	    float: right;
+	}
+    
+    #Heading {
+	     margin: auto;
+	}
+    
+    .clear:after {
+    clear: both;
+    display: table;
+    content: "";
+	}
+	
+	#HeadContainer {
+		margin: 0 auto;
+		min-height: 41px;
+		/*overflow: hidden;*/
+		position: relative;
+		width: 1300px;
+	}
+    .Info
+	{
+		padding-top: 15px;
+        font-size: 30px;
+	}
+
+    #topMenu ul a:hover
+	{
+		text-decoration: underline;
+	}
+
+    #topMenu ul a
+	{
+		text-decoration: none;
+	}
+
+    a
+	{
+		//color: white;
+	}
+
+   /* #topMenu ul
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+    #topMenu li
+	{
+		padding: 10px;
+	}
+*/
+    .clearfix:after
+	{
+		clear: both;
+	}
+
+    #content {
+       /* width: 900px;
+        */margin: 0 auto;
+         padding: 0 0 5px 0 !important;
+         display: table;       
+	}
+
+
+    #inside-content
+	{
+		margin: 0 auto;
+	}
+  html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+    .Heading
+	{
+		font-size: 16px !important;
+	}
+
+    #screenshot_image
+	{
+		width: 275px !important;
+        height: 190px !important;
+	}
+
+    #inside-content, .results-item {
+      //  background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.75) !important;
+	}
+    
+    .SearchButton{
+	    float: left;
+		clear: both;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+    
+    #inside-content{
+    	padding: 0 40px 20px 40px;
+
+	}
+    .results-item
+	{
+		margin: 10px 0 10px 0;
+		padding: 20px 60px 20px 60px;    
+	}
+
+    #Heading
+	{
+		font-size: 20px !important;
+		padding: 5px 0 5px 0;
+	}
+
+   /* #topMenu 
+    {
+		padding: 2px;
+		margin: 5px auto;
+	}
+		*/
+	#topMenu ul li a 
+	{
+		color: black !important;
+		font-family: "Montserrat", sans-serif;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 13px;
+	}
+
+	
+    
+    #topMenu, #Heading, .ui-dialog-title
+    { 
+		color: black !important;
+		font-family: "Montserrat", sans-serif;
+	}
+	
+	 .center
+	{
+		text-align: center;
+	}
+
+    #topMenu{
+	    text-align: right;
+	}
+
+
+    .title, #content, #content h2, .results-item p{
+        color: white;
+	}
+
+	.results-item p
+	{
+		font-size: 30px;
+	}
+ 
+	#advanceSearch
+	{
+		text-decoration: underline;
+	}
+	
+	footer 
+	{
+		width: 100%;
+		bottom: 0;
+		z-index: 1001;
+		position: absolute;
+		left: 0;
+	}
+	
+	.results-item 
+	{
+		border: 2px solid;
+		border-radius: 25px;
+	}	
+	
+	.ms-choice, .ms-parent
+	{
+		width: 200px !important;
+	}
+  
+  .inlineblock
+  {
+	  display: inline-block;
+	}
