@@ -116,7 +116,7 @@
 </a>
             </div>
             <?php
-            include($_SERVER['DOCUMENT_ROOT'].'/include/menu.php');
+            include('include/menu.php');
             ?>
             <!-- /.navbar-collapse -->
         </div>

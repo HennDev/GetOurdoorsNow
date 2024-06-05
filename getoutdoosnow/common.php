@@ -1,5 +1,5 @@
 <?php
-		include($_SERVER['DOCUMENT_ROOT']."/Classes/images.php");
+		include("Classes/images.php");
 
     $guid = "Guid";
 
