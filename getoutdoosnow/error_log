@@ -1,0 +1,13 @@
+04-Dec-2015 02:25:51 UTC] PHP Notice:  Undefined index: region_id in /home/a94229721/public_html/dev/database.php on line 136
+[04-Dec-2015 02:26:12 UTC] PHP Notice:  Undefined index: region_id in /home/a94229721/public_html/dev/database.php on line 136
+[04-Dec-2015 02:29:25 UTC] PHP Notice:  Undefined index: region_id in /home/a94229721/public_html/dev/database.php on line 136
+[04-Dec-2015 02:30:20 UTC] PHP Notice:  Undefined property: Outfitter::$region_id in /home/a94229721/public_html/dev/Outfitters/editOutfitter.php on line 171
+[04-Dec-2015 02:30:26 UTC] PHP Notice:  Undefined index: region_id in /home/a94229721/public_html/dev/database.php on line 136
+[15-Jan-2016 21:40:58 UTC] PHP Notice:  Undefined variable: outfitters in /home/a94229721/public_html/dev/Outfitters/linkOutfitter.php on line 39
+[15-Jan-2016 21:40:58 UTC] PHP Notice:  Undefined variable: outfitters in /home/a94229721/public_html/dev/Outfitters/linkOutfitter.php on line 41
+[15-Jan-2016 21:40:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/a94229721/public_html/dev/Outfitters/linkOutfitter.php on line 41
+[28-Jan-2016 23:34:20 UTC] PHP Fatal error:  Cannot use object of type Outfitter as array in /home/a94229721/public_html/dev/Outfitters/allOutfitters.php on line 90
+[28-Jan-2016 23:34:23 UTC] PHP Fatal error:  Cannot use object of type Outfitter as array in /home/a94229721/public_html/dev/Outfitters/allOutfitters.php on line 90
+[02-Feb-2016 14:10:04 UTC] PHP Fatal error:  Call to undefined function getAllOutfitterActivities() in /home/a94229721/public_html/dev/Outfitters/viewOutfitter.php on line 603
+[02-Feb-2016 14:10:34 UTC] PHP Fatal error:  Call to undefined function getAllOutfitterActivities() in /home/a94229721/public_html/dev/Outfitters/viewOutfitter.php on line 603
+[02-Feb-2016 14:11:27 UTC] PHP Fatal error:  Call to undefined function getAllOutfitterActivities() in /home/a94229721/public_html/dev/Outfitters/viewOutfitter.php on line 603

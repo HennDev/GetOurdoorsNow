@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $.getJSON("getRegionsByState.php?state_id=43", function(result){
+            $.each(result, function(i, field){
+                $("div").append("regionID: " + field['region_id'] + " " + 
+                "state_id: " + field['state_id'] + " " +
+                "region: " + field['region'] + " " +
+                "abbreviation: " + field['abbreviation'] + " <br> ");
+            });
+        });
+    });
+    
+     $('#cat').change(function(){
+     var state_ID = $('#cat').val();
+            $("div").empty();
+            $('#item').empty();
+            $('#item').append('<option value="loading">loading....</option>');
+            
+            
+      $.getJSON("getRegionsByState.php?state_id="+state_ID, function(result){
+            $('#item').empty();
+            $.each(result, function(i, field){
+             	$("div").append("regionID: " + field['region_id'] + " " + 
+                "state_id: " + field['state_id'] + " " +
+                "region: " + field['region'] + " " +
+                "abbreviation: " + field['abbreviation'] + " <br> ");
+                
+                $('#item').append('<option value="'+field['region_id']+'">'+field['region']+'</option>');
+            });
+        });
+        
+       
+        
+    });
+
+    
+});
+</script>
+</head>
+<body>
+
+<button>Get JSON data</button>
+<select id="cat">
+    <option value="43">car</option>
+    <option value="1">phone</option>
+</select>
+
+<select id="item">
+
+</select>
+
+
+<div></div>
+
+</body>
+</html>

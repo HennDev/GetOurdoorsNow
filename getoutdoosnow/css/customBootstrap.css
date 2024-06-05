@@ -1,0 +1,332 @@
+
+
+.panel-success-custom {
+    border-color: #24680C;
+}
+.btn-success-custom, .panel-success-custom .btn-success {
+    color: white;
+    background-color: #24680C;
+    border-color: #047404;
+}
+
+.panel-success-custom > .panel-heading {
+    background: #24680C;
+    color: white;
+}
+
+.modal-header
+{
+    border-bottom: 3px solid #24680C;
+}
+
+/* Large*/
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: right !important;
+        margin: 0 !important;
+    }
+
+    .navbar-nav > li {
+        float: left;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navfooter {
+        margin-bottom: 0px;
+        border-radius: 0px;
+    }
+
+    .navbar-inverse {
+        background-color: #24680C;
+        border-color: #080808;
+    }
+
+    .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+        color: white !important;
+    }
+
+    .navbar-inverse .navbar-brand {
+        font-size: 20px;
+
+    }
+
+    header img, nav navbar-nav {
+        display: inline-block !important;
+        *display: inline !important;;
+        vertical-align: middle;
+    }
+
+
+
+
+    .navbar-brand, nav navbar-nav,collapse navbar-collapse
+    {
+        float:none !important;
+    }
+
+    .navbar-brand img
+    {
+        height: 75px;
+        width: auto;
+    }
+    .navbar-inverse .navbar-nav > li > a, .navbar-brand {
+        font-size: 18px;
+        line-height: 37.5px;
+    }
+
+    .title, #content, #content h2, .results-item p {
+        color: black !important;
+    }
+
+    @media (min-width: 1200px) {
+        .container {
+            width: 1200px;
+        }
+    }
+
+
+    .glyphicon-refresh-animate {
+        -animation: spin 1s infinite linear;
+        -webkit-animation: spin2 1s infinite linear;
+    }
+
+    @-webkit-keyframes spin2 {
+        from {
+            -webkit-transform: rotate(0deg);
+        }
+        to {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @keyframes spin {
+        from {
+            transform: scale(1) rotate(0deg);
+        }
+        to {
+            transform: scale(1) rotate(360deg);
+        }
+    }
+
+
+
+    .panel-success-custom > .panel-heading {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
+
+    .panel-success-custom > .panel-heading > .panel-title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
+
+    .panel-success-custom .btn-success:hover {
+        color: white;
+        background-color: #5cb85c;
+        border-color: #5cb85c;
+    }
+
+    #tabs .ui-state-hover {
+
+        background: #80bf40 !important;
+        border: 1px solid #d3d3d3;
+
+    }
+
+    .ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
+    / / background-image : url(images/ui-icons_454545_256x240.png);
+        color: red;
+    }
+
+    #ui-datepicker-div {
+        border-style: solid;
+        border-color: green;
+
+    }
+
+    #tabs .ui-state-hover {
+
+        background: #80bf40 !important;
+        border: 1px solid #d3d3d3;
+
+    }
+
+    .ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
+    / / background-image : url(images/ui-icons_454545_256x240.png);
+        color: red;
+    }
+
+    #ui-datepicker-div {
+        border-style: solid;
+        border-color: #24680C;
+
+    }
+
+    .row-custom {
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    .page-header-custom {
+        margin-top: 0px;
+    }
+
+    .ui-datepicker-title {
+        color: black;
+        color: black;
+    }
+
+    .jump-navigation span, .jump-navigation ul {
+        float: left;
+
+    }
+
+    .jump-navigation ul {
+        margin-left: 3px;
+    }
+
+    .ui-spinner {
+        width: 100%;
+    }
+
+    .dropdown-menu > li > a:hover {
+        background-color: #AFB0B4 !important;
+    }
+}
+
+    @media (min-width: 768px) {
+        #home-container-fluid .container {
+            width: 750px;
+            padding-right: 15px;
+            padding-left: 15px;
+
+        }
+    }
+@media (min-width: 992px) {
+    #home-container-fluid .container {
+
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        width: 970px;
+        padding-right: 15px;
+        padding-left: 15px;
+
+    }
+}
+
+/*large*/
+    @media (min-width: 1600px)
+{
+
+        #spacer-Div
+        {
+            height: 600px !important;
+        }
+        #home-container-fluid
+        {
+            background-image: url('/img/Sunset-When-Fishing-HD-Wallpapers.jpg') !important;
+            background-image: url('/img/deer-hunting-widescreen-high-definition-wallpaper-desktop-background-download.jpg') !important;
+            /*http://wallpapersblog.org/fishing-in-sunset-full-hd-wallpaper/*/
+            background-image: url('/img/Sunset-When-Fishing-HD-Wallpapers.jpg') !important;
+
+            padding: 30px 30px 0 30px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height: 90vh;
+            position: relative;
+        }
+        #home-container-fluid .container {
+
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 1500px;
+        }
+
+
+    }
+
+
+        /*Medium*/
+@media (min-width: 992px)
+{
+    #spacer-Div
+    {
+        height: 245px;
+    }
+
+    #home-container-fluid
+    {
+        background-image: url('/img/Sunset-When-Fishing-HD-Wallpapers.jpg') !important;
+
+        /*http://wallpaperswide.com/fishing-wallpapers.html*/
+        background-image: url('/img/deer-hunting-widescreen-high-definition-wallpaper-desktop-background-download.jpg') !important;
+        /*http://wallpapersblog.org/fishing-in-sunset-full-hd-wallpaper/*/
+        background-image: url('/img/fishing-wallpaper-1920x1080.jpg') !important;
+        background-image: url('/img/sunset-192128_1920.jpg') !important;
+        background-image: url('/img/fishing-at-sunset-209112_1920.jpg') !important;
+        background-image: url('/img/flats_fishing.jpg') !important;
+        background-image: url('/img/fishing-at-sunset-209112_1920.jpg') !important;
+
+        padding: 30px 30px 0 30px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 80vh;
+        position: relative;
+
+    }
+    #home-container-fluid .container {
+
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+/* Portrait phones and smaller */
+@media (max-width: 768px) {
+
+    .navbar-brand {
+        padding: 10px; /* firefox bug fix */
+    }
+
+    .navbar-brand > img {
+        height: 100%;
+    }
+
+    .modal-header-login
+    {
+        margin-bottom: 30px;
+    }
+
+    .modal-header-login .glyphicon-remove {
+        font-size: 30px;
+    }
+}
+
+
+/* Portrait laptop */
+@media (max-width: 1440px) {
+
+    #img_logo
+    {
+        height: 150px;
+    }
+}
