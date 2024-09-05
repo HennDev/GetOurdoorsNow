@@ -195,7 +195,7 @@ include($_SERVER['DOCUMENT_ROOT']."/include/top_start.php");
                 var appendVal = "";
                 var selected = "";
 
-                $.getJSON("/Ajax/getRegionsByState.php?state_id="+stateID, function(result){
+                $.getJSON("Ajax/getRegionsByState.php?state_id="+stateID, function(result){
                     $.each(result, function(i, field){
                         if(regionID === field['region_id'])
                         {

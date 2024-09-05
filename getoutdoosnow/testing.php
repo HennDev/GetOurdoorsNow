@@ -37,10 +37,10 @@
     <script src="/us-map-1.0.1/jquery.usmap.js"></script>
 
     <!-- Bootstrap Core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Bootstrap Core CSS -->
-    <link href="/css/customBootstrap.css" rel="stylesheet">
+    <link href="css/customBootstrap.css" rel="stylesheet">
 
 
     <!-- Custom CSS -->

@@ -112,7 +112,7 @@
                 </button>
                <!-- <a class="navbar-brand" href="/index.php">GetOutdoorsNow</a>-->
 
-    <a class="navbar-brand" href="/index.php">                <img src="/img/logos/White/PNG/getoutdoors_72px%20copy%202%202.png" height="100px" width="auto" />
+    <a class="navbar-brand" href="/index.php">                <img src="img/logos/White/PNG/getoutdoors_72px%20copy%202%202.png" height="100px" width="auto" />
 </a>
             </div>
             <?php
@@ -130,7 +130,7 @@
     <div id="login-overlay" class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header" align="center">
-                <img class="img hidden-sm hidden-xs" id="img_logo" src="/img/logos/Full%20Color/JPG/getoutdoors_150px.jpg" height="350px" width="auto">
+                <img class="img hidden-sm hidden-xs" id="img_logo" src="img/logos/Full%20Color/JPG/getoutdoors_150px.jpg" height="350px" width="auto">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span style="color: red;" class="glyphicon glyphicon-remove" aria-hidden="true"></span>
                 </button>
@@ -183,10 +183,10 @@
 
                             <div class="col-md-6">
 
-                                <a href="/createUser.php" class="btn btn-info">Standard registration</a>
+                                <a href="createUser.php" class="btn btn-info">Standard registration</a>
     </div>
                             <div class="col-md-6">
-                                <a href="/createUser.php?action=NewOutfitter" class="btn btn-info">Outfitter registration</a>
+                                <a href="createUser.php?action=NewOutfitter" class="btn btn-info">Outfitter registration</a>
 </div>
                                 </div>
                         </div>

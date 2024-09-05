@@ -21,7 +21,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title><?php echo $title?></title>
-    <link rel="icon"  type="image/png" href="/img/logos/Full%20Color/JPG/getoutdoors_150px.jpg" />
+    <link rel="icon"  type="image/png" href="img/logos/Full%20Color/JPG/getoutdoors_150px.jpg" />
 	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
 <!--	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/ui-lightness/jquery-ui.css" />
@@ -31,10 +31,10 @@
     <link rel="stylesheet" href="/css/themes/custom-theme/jquery-ui-1.9.2.custom.css">
      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
 -->
-    <link rel="stylesheet" href="/css/themes/custom-theme/jquery-ui-1.10.0.custom.css">
+    <link rel="stylesheet" href="css/themes/custom-theme/jquery-ui-1.10.0.custom.css">
 
-    <link rel="stylesheet" href="/css/themes/smoothness/jquery-ui.css">
-    <link rel="stylesheet" href="/css/themes/smoothness/theme.css"/>
+    <link rel="stylesheet" href="css/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/themes/smoothness/theme.css"/>
 
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
@@ -44,35 +44,35 @@
     <script type = "text/javascript"
             src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
 
-    <script type="text/javascript" src="/js/jquery.tokenize.js"></script>
+    <script type="text/javascript" src="js/jquery.tokenize.js"></script>
 
-    <script type="text/javascript" src="/js/jquery.validate.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/js/jquery.tokenize.css" />
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/jquery.tokenize.css" />
 
-    <link href="/css/multiple-select.css" rel="stylesheet"/>
+    <link href="css/multiple-select.css" rel="stylesheet"/>
 
     <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
 
-    <script src="/js/jquery.multiple.select.js"></script>
+    <script src="js/jquery.multiple.select.js"></script>
 
-    <script type="text/javascript" src="/js/jquery.tokenize.js"></script>
-	<link rel="stylesheet" type="text/css" href="/js/jquery.tokenize.css" />
+    <script type="text/javascript" src="js/jquery.tokenize.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/jquery.tokenize.css" />
 	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
-        <link href="/css/Site.css" rel="stylesheet" />
-	<link rel="stylesheet" type="text/css" href="/css/dropdown.css" />
+    <link href="css/Site.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="css/dropdown.css" />
 
         <!-- Bootstrap Core CSS -->
-        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Bootstrap Core CSS -->
-        <link href="/css/customBootstrap.css" rel="stylesheet">
+        <link href="css/customBootstrap.css" rel="stylesheet">
 
-    <script type="text/javascript" src="/js/cookies.js"></script>
+    <script type="text/javascript" src="js/cookies.js"></script>
 
 
-    <script src="/us-map-1.0.1//lib/raphael.js"></script>
-    <script src="/us-map-1.0.1/example/color.jquery.js"></script>
-    <script src="/us-map-1.0.1/jquery.usmap.js"></script>
+    <script src="us-map-1.0.1//lib/raphael.js"></script>
+    <script src="us-map-1.0.1/example/color.jquery.js"></script>
+    <script src="us-map-1.0.1/jquery.usmap.js"></script>
 
         <!-- Custom CSS -->
         <style>

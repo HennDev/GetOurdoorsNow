@@ -566,7 +566,7 @@ echo $mail_sent ? "Mail sent" : "Mail failed";
                 <div class="modal-header" align="center">
                     <div class="row">
                         <div class="col-xs-12">
-                    <img class="hidden-sm hidden-xs" id="img_logo" src="/img/logos/Full%20Color/JPG/getoutdoors_150px.jpg" height="350px" width="auto" ">
+                    <img class="hidden-sm hidden-xs" id="img_logo" src="img/logos/Full%20Color/JPG/getoutdoors_150px.jpg" height="350px" width="auto" ">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span style="color: #24680C;"  class="glyphicon glyphicon-remove" aria-hidden="true"></span>
                     </button>
